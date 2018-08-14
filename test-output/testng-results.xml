@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37993" started-at="2018-08-02T07:32:41Z" finished-at="2018-08-02T07:33:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37993" started-at="2018-08-02T07:32:41Z" finished-at="2018-08-02T07:33:19Z">
+      <class name="Scripts.VerifyActiTimeProductVersion">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Scripts.VerifyActiTimeProductVersion@5f341870]" name="openApplication" is-config="true" duration-ms="8813" started-at="2018-08-02T13:02:41Z" finished-at="2018-08-02T13:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyActiTimeProductVersion()[pri:0, instance:Scripts.VerifyActiTimeProductVersion@5f341870]" name="verifyActiTimeProductVersion" duration-ms="29117" started-at="2018-08-02T13:02:50Z" finished-at="2018-08-02T13:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiTimeProductVersion -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:Scripts.VerifyActiTimeProductVersion@5f341870]" name="closeApplication" is-config="true" duration-ms="2" started-at="2018-08-02T13:03:19Z" finished-at="2018-08-02T13:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyActiTimeProductVersion status=SUCCESS method=VerifyActiTimeProductVersion.verifyActiTimeProductVersion()[pri:0, instance:Scripts.VerifyActiTimeProductVersion@5f341870] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Scripts.VerifyActiTimeProductVersion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
